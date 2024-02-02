@@ -1,3 +1,27 @@
+# REST Countries API with colour theme switcher
+
+<div align="center">
+  <h3>
+    <a href="https://countries-flags-e81uonvx8-sahil-rajs-projects.vercel.app/" color="white">
+      Live
+    </a>
+    <span> | </span>
+    <a href="https://www.frontendmentor.io/solutions/rest-countries-api-with-color-theme-switcher-SySqXmn49">
+      Solution
+    </a>
+   <span> | </span>
+    <a href="https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca">
+      Challenge
+    </a>
+  </h3>
+</div>
+<div align="center">
+   Solution for a challenge from  <a href="https://www.frontendmentor.io/" target="_blank">frontendmentor.io</a>.
+</div>
+<br>
+<br>
+<br>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
