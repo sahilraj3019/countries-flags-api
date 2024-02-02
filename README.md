@@ -1,4 +1,4 @@
-# REST Countries API with colour theme switcher
+# REST Countries API with Theme switch option (Dark and Light Mode)
 
 <div align="center">
   <h3>
