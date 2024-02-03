@@ -3,12 +3,25 @@ import React, { Link } from "react-router-dom";
 import "./countries.css";
 import { CountriesInterface } from "../../types/interfaces";
 
-function FilteredCountries({filtered, foundFilter}: {filtered: CountriesInterface[] | null, foundFilter: boolean}) {
+const FilteredCountries = ({
+  filtered,
+  foundFilter,
+}: {
+  filtered: CountriesInterface[] | null;
+  foundFilter: boolean;
+}) => {
   return (
     <section className="container-block">
-      {foundFilter &&  filtered ? (
-       filtered.map(
-          ({ name, population, region, capital, flags, index }: CountriesInterface) => (
+      {foundFilter && filtered ? (
+        filtered.map(
+          ({
+            name,
+            population,
+            region,
+            capital,
+            flags,
+            index,
+          }: CountriesInterface) => (
             <Link
               key={name}
               to={`/${name.toLowerCase().replace(/\s/g, "%20")}`}
@@ -59,7 +72,6 @@ function FilteredCountries({filtered, foundFilter}: {filtered: CountriesInterfac
       )}
     </section>
   );
-}
+};
 
-
-export default  FilteredCountries;
+export default FilteredCountries;

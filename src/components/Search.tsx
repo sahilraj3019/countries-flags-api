@@ -2,6 +2,7 @@ import React from "react";
 import { SearchProps } from "../types/interfaces";
 import { FaSearch } from "react-icons/fa";
 import FilterRegions from "./FilterRegions";
+import Toggle from "./Toggle";
 
 
 
@@ -21,6 +22,7 @@ const Search = ({ searchCountries, setCountries, searchInput, resetInput }: Sear
         <button className="delete-icon" onClick={resetInput}>X</button>
       </section>
       <FilterRegions setCountries={setCountries} />
+      <Toggle />
     </article>
   );
 };

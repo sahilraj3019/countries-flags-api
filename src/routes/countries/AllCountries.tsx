@@ -3,12 +3,18 @@ import { motion } from "framer-motion";
 import { CountriesInterface } from "../../types/interfaces";
 import "./countries.css";
 
-
-function AllCountries(props: any) {
+const AllCountries = (props: any) => {
   return (
     <section className="container-block">
       {props.countries.map(
-        ({ name, population, region, capital, flags, index }: CountriesInterface) => (
+        ({
+          name,
+          population,
+          region,
+          capital,
+          flags,
+          index,
+        }: CountriesInterface) => (
           <Link
             key={name}
             to={`/${name.toLowerCase().replace(/\s/g, "%20")}`}
@@ -60,7 +66,6 @@ function AllCountries(props: any) {
       )}
     </section>
   );
-}
+};
 
-
-export default  AllCountries;
+export default AllCountries;

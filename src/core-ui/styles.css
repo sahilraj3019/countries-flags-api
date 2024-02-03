@@ -56,6 +56,19 @@ main {
   flex-direction: column;
   gap: 3rem;
 }
+.toggle {
+  display: flex;
+  position: relative;
+  border-radius: 10px;
+  width: 7.5rem;
+  height: 30%;
+  padding: 0 0.2rem 0.2rem 0.2rem;
+  -webkit-box-shadow: rgb(0 0 0 / 3%) 0px 0px 3px 3px;
+  box-shadow: rgb(0 0 0 / 3%) 0px 0px 3px 3px;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 .toggle-light,
 .toggle-dark {
   cursor: pointer;
@@ -221,6 +234,7 @@ details > summary::-webkit-details-marker {
 .dark .inside-container,
 .dark .input-block input,
 .dark .select-region,
+.dark .toggle,
 .dark .region-list,
 .dark .back-link {
   -webkit-box-shadow: 0px 7px 6px -4px rgba(4, 4, 4, 0.27);
